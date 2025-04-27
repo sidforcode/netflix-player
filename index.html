@@ -1,4 +1,6 @@
-<script src="https://content.jwplatform.com/libraries/KB5zFt7A.js" />
+<html>
+  <head>
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js">
 <!--  Fullscreen Video CSS -->
 <style>
   #player {
@@ -953,7 +955,8 @@ Icone de Share.
 }
 
 </style>
-
+  </head>
+  <body>
 <!-- Player -->
 <div id="player"></div>
 
@@ -981,6 +984,7 @@ Icone de Share.
     </div>
   </div>
 </div>
+        
 <script>
   const playerInstance = jwplayer("player").setup({
   controls: true,
@@ -1187,3 +1191,4 @@ playerInstance.on("ready", function () {
 });
 
 </script>
+  </body></html>
